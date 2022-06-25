@@ -1,5 +1,9 @@
-1. npm install  (inside server)
+Frontend- ReactJS
+Backend - NodeJS
+Database- MySQL
 
+
+1. npm install  (inside server)
 #database
 run xampp and then in browser open localhost/phpmyadmin 
 create database = organic (no need to create table just leave it as it is and den do 2. )
