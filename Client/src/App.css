@@ -1,0 +1,38 @@
+/* VARIABLES for colors*/
+:root{
+  --Very_Light_Gray: hsl(0, 0%, 96%);
+  --White: hsl(0, 0%, 100%);
+  --Extra_LG: hsl(0, 0%, 98%);
+  --Black: hsl(0, 0%, 0%);
+  --Baby_Blue: hsl(200, 75%, 23%);
+  --Light_Grayish: hsl(219, 14%, 77%);
+  --Grayish_Blue: hsl(233, 8%, 62%); 
+  --Dark_Blue: hsl(233, 26%, 24%);
+  --Bright_Blue: hsl(240, 44%, 51%);
+  --Dark_Gray: hsl(0, 4%, 35%);
+  --Gray: hsla(0, 0%, 0%, 0.5);
+  --Red: hsl(0, 100%, 50%);
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 'Arimo', sans-serif;
+  font-size: calc(15px +0.5vw);
+  font-weight: 300;
+  background-color: var(--Very_Light_Gray);
+  box-sizing: border-box;
+  line-height: calc(20px+ 0.6vw);
+  overflow-x: hidden;   /* it will trim or cut any extra content outside the viewport */
+}
+h1{
+  font-size: 2.3em;  /* will depend on parent */
+  line-height: calc(27px + 1vw);
+}
+h2{
+  font-size: 2.5em;
+  line-height: calc(49px + 1vw);
+}
+p{
+  font-size: 1.5em;
+  line-height: calc(25px + 1vw);
+}

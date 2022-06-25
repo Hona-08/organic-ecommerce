@@ -1,0 +1,8 @@
+1. npm install  (inside server)
+
+#database
+run xampp and then in browser open localhost/phpmyadmin 
+create database = organic (no need to create table just leave it as it is and den do 2. )
+2.npx sequelize-cli db:migrate:undo (first)
+npx sequelize-cli db:migrate (vs code ma vayena vani cmd ma garnu) 
+3.npm start
